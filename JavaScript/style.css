@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(143, 116, 81);
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.events{
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 8px;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(65, 65, 161);
+}
+
+.events img{
+  height: 120px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgb(65, 65, 161);
+}
+
+.events h1{
+    font-size: 26px;
+}
+
+.events h4{
+    font-size: 30px;
+}

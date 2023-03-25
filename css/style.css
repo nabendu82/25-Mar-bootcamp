@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+h3{
+    background-color: rgb(0, 100, 255);
+}
+
+p.top{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.9rem;
+    /* letter-spacing: 0.9em;
+    word-spacing: 1em; */
+    color: red;
+    font-weight: bold;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Poppins';
+}
+
+p#bottom{
+    font-size: 30px;
+    font-family: 'poppins';
+    font-weight: 400;
+    border: 5px solid black;
+    /* padding: 30px;    
+    margin: 40px; */
+    /* padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px; */
+    /* padding: 20px 40px; */
+    /* margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px; */
+    margin: 40px 20px;
+}
+
+.categories{
+    font-family: 'poppins';
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    /* text-decoration: none; */
+    color: black;
+}
+
+.categories li:hover{
+    background-color: yellow;
+    font-size: 20px;
+} 
+
+.categories h2:hover{
+    background-color: lightblue;
+}
+
+.categories li{
+    padding-bottom: 20px;
+    border-bottom: 1px dotted blue;
+}
+
+.my-form{
+    font-family: 'poppins';
+    padding: 20px;
+}
+
+.form-gp input{
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'poppins';
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
+
+.btn:active{
+    background-color: orangered;
+    font-size: 25px;
+}
+
+.block{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.block1{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.pbox{
+    width: 800px;
+    height: 700px;
+    border: 2px solid black;
+    position: relative;
+    background-image: url(./images/dennis-yu-_nkfgyoO1xg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pbox h1{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.pbox h2{
+    position: absolute;
+    bottom: 80px;
+    right: 100px;
+}
+
+.fbtn{
+    position: fixed;
+    top: 100px;
+    
+}
+
+
+/* .psuedo{
+    background-color: red;
+} */
+
+.psuedo li:last-child{
+    background-color: red;
+}
+
+.psuedo li:first-child{
+    background-color: pink;
+}
+
+.psuedo li:nth-child(4){
+    background-color: orange;
+}
+
+.psuedo li:nth-child(3){
+    background-color: lightblue;
+}
+
+.psuedo1 li:nth-child(odd){
+    background-color: orange;
+}
+
+.psuedo1 li:nth-child(even){
+    background-color: pink;
+}
